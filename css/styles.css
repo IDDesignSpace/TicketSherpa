@@ -1,0 +1,30 @@
+
+
+* {
+    box-sizing: border-box;
+}
+:root {
+    --bebas:url('TicketSherpa/Fonts/Bebas_Neue/BebasNeue-Regular.ttf');
+}
+
+body {
+    background-color:red;
+    font-family: var(--bebas);
+}
+main {
+    border: solid red 1px;
+}
+main #carousel-container .carousel {
+    padding: 0;
+   
+}
+
+main #carousel-container .carousel .carousel-item img {
+    height: 80vh;
+    margin: 0 auto;
+    border: solid red 3px;
+}
+
+#carousel-container .carousel .carousel-item h5 {
+    color: black;
+}
